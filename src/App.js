@@ -1,28 +1,16 @@
+import React from "react"; 
 import "./App.css";
-import NavBar from "./components/NavBar";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import NavBar from "./components/NavBar/NavBar.jsx";
 
 function App() {
   return (
-    <div className="nav">
-    <NavBar/>
-    </div>
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React!!!
-    //     </a>
-    //   </header>
-    // </div>
-  );
+    <>
+      <NavBar/>
+      <ItemListContainer greeting = {'Hola estoy aprendiendo a usar props'}/>
+    </>
+    
+  )
 }
 
 export default App;

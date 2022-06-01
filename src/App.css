@@ -4,32 +4,7 @@
   padding:0;
 }
 
-.nav{
-  background-color: #ffe7eb4e;
-  margin: 2% 0 2%;
-}
 
-.navbar{
-  
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  margin-left: 3%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-}
-
-.navbar li{
-  margin-left: 2%;
-}
-
-.navbar li a{
-  text-decoration: none;
-}
-
-.decoLogo{
-  height: 40px;
-}
 
 /* .App {
   text-align: center;

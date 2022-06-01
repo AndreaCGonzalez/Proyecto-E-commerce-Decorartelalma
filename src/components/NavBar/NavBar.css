@@ -1,0 +1,29 @@
+.navbar{
+    background-color: #ffe7eb4e;
+    /* color: #31A4A2; */
+  }
+  
+  .decoLogo{
+    height: 45px;
+  }
+  
+  
+  .divCarrito{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-content: flex-end;
+  }
+  
+  .divCarrito{
+    height: 40px;
+    width: 550px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+  }
+
+  .carrito{
+    height: 40px;
+    background-color: aliceblue;
+  }
