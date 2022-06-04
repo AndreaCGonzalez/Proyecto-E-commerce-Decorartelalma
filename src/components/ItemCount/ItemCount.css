@@ -1,0 +1,29 @@
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contadorContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number{
+    text-align: center;
+    padding: 10%;
+}
+.minusbtn{
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    margin-right: 5%;
+}
+.plusbtn{
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    margin-left: 5%;
+}
