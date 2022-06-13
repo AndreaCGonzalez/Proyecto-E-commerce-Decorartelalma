@@ -22,9 +22,7 @@ function NavBar(){
                         <a className="nav-link" href="#"> Sobre mi </a>
                         <a className="nav-link" href="#"> Envio </a>
                         <a className="nav-link" href="#"> FAQ </a>
-                        <div className="divCarrito"> <CartWidget items= {2}/> </div>
-                        
-                        
+                        <div className="divCarrito"> <CartWidget items= {2}/> </div>    
                     </div>
                 </div>
             </div>

@@ -1,10 +1,11 @@
 import React from 'react';
-import Item from './Item';
+import './ItemList.css';
+import Item from '../Item';
 
 function ItemList({resultado}) {
 
   return (
-    <div style={{margin:'5%'}}>
+    <div className='container-fluid' style={{marginTop: '10%'}}>
         {resultado && resultado.map(resultado => <Item key= {resultado.titulo} resultado = {resultado}/>)}
     </div>
   )
